@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <servlet>
+        <servlet-name>DateServlet</servlet-name>
+        <servlet-class>ma.fstm.ilisi.jeetps.tp1.date_servlet.DateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DateServlet</servlet-name>
+        <url-pattern>/TestServletDate</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AuthentificationServlet</servlet-name>
+        <servlet-class>ma.fstm.ilisi.jeetps.tp1.authentification.AuthentificationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthentificationServlet</servlet-name>
+        <url-pattern>/authentification</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>ma.fstm.ilisi.jeetps.tp1.authentification.HomeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletPrincipale</servlet-name>
+        <servlet-class>ma.fstm.ilisi.jeetps.tp1.collaboration.ServletPrincipale</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletPrincipale</servlet-name>
+        <url-pattern>/servlet-principale</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletSecondaire</servlet-name>
+        <servlet-class>ma.fstm.ilisi.jeetps.tp1.collaboration.ServletSecondaire</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletSecondaire</servlet-name>
+        <url-pattern>/servlet-secondaire</url-pattern>
+    </servlet-mapping>
+
+</web-app>
