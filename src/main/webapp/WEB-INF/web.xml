@@ -47,5 +47,13 @@
         <servlet-name>ServletSecondaire</servlet-name>
         <url-pattern>/servlet-secondaire</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>SessionServlet</servlet-name>
+        <servlet-class>ma.fstm.ilisi.jeetps.tp1.session.SessionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionServlet</servlet-name>
+        <url-pattern>/session-servlet</url-pattern>
+    </servlet-mapping>
 
 </web-app>
